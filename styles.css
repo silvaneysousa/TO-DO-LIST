@@ -14,7 +14,7 @@ body {
     justify-content: center;
     background: linear-gradient(90deg, rgba(65, 184, 131, 1) 0%, rgba(0, 212, 255, 1) 100%);
 
-}
+} 
 
 .container {
     border: 2px solid #fff;
@@ -88,6 +88,9 @@ body {
     border-radius: 5px;
 }
 
+.task_item i:hover {
+    cursor: pointer;
+}
 
 /*Utilidades*/
 
@@ -97,4 +100,8 @@ body {
 
 .error::placeholder {
     color: red;
+}
+
+.completed {
+    text-decoration: line-through;
 }
